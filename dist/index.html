@@ -6,9 +6,88 @@
     <title>Tailwind CSS with Parcel</title>
     <link rel="stylesheet" href="/index.4110e2cc.css">
   </head>
+  <style>* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+</style>
   <body>
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      Click me
-    </button>
-  <script src="/MP9_UF1_tailwind-project.59712999.js"></script></body>
+    <header class="bg-[#292929] h-[13vh] flex justify-evenly content-center text-white items-center">
+      <span class="text-2xl">Portofolio</span>
+      <nav class="flex gap-10">
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <!--flex-grow-0-->
+    <div class="main flex flex-grow [&>*]:m-1 h-auto">
+      <section class="col1 about-me w-[40%] h-[86vh] border [&>*]:px-[20%]">
+        <div class="img h-[50%] flex justify-center items-center">
+          <span class="p-[15%] bg-[#292929] text-white">img</span>
+        </div>
+        <div class="text [&>*]:my-4">
+          <h2>Web develoepr</h2>
+          <h1>Hassan Shah</h1>
+          <h3>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
+            inventore, nobis provident esse temporibus minus, vero incidunt unde
+            sint ea neque dolor consectetur earum tenetur repellendus at.
+            Repudiandae, aut modi?
+          </h3>
+        </div>
+      </section>
+      <div class="col2 w-[60%] h-[86vh] border">
+        <section class="skills">
+          <h2>Skills</h2>
+          <div class="skills-list">
+            <div class="skill">
+              <span>Skill</span>
+              <i></i>
+            </div>
+            <div class="skill">
+              <span>Skill</span>
+              <i></i>
+            </div>
+            <div class="skill">
+              <span>Skill</span>
+              <i></i>
+            </div>
+            <div class="skill">
+              <span>Skill</span>
+              <i></i>
+            </div>
+            <div class="skill">
+              <span>Skill</span>
+              <i></i>
+            </div>
+            <div class="skill">
+              <span>Skill</span>
+              <i></i>
+            </div>
+          </div>
+        </section>
+        <section class="projects">
+          <h2></h2>
+          <div class="projects-list">
+            <div class="project">
+              <span>Project</span>
+              <a href="#" type="button">+ info</a>
+            </div>
+            <div class="project">
+              <span>Project</span>
+              <a href="#" type="button">+ info</a>
+            </div>
+            <div class="project">
+              <span>Project</span>
+              <a href="#" type="button">+ info</a>
+            </div>
+          </div>
+          <a href="#" type="button"></a>
+        </section>
+      </div>
+    </div>
+  <script src="/mp9-uf1-projectetailwind-Hassan-ssan.59712999.js"></script></body>
 </html>
